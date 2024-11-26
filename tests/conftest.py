@@ -109,6 +109,47 @@ async def locked_user(db_session):
     await db_session.commit()
     return user
 
+@pytest.fixture
+async def user_token(async_client, verified_user):
+    """
+    Fixture to generate a token for a regular verified user.
+    """
+    response = await async_client.post(
+        "/login/",
+        data={"username": verified_user.email, "password": "MySuperPassword$1234"},
+        headers={"Content-Type": "application/x-www-form-urlencoded"}
+    )
+    assert response.status_code == 200
+    return response.json()["access_token"]
+
+
+@pytest.fixture
+async def admin_token(async_client, admin_user):
+    """
+    Fixture to generate a token for an admin user.
+    """
+    response = await async_client.post(
+        "/login/",
+        data={"username": admin_user.email, "password": "securepassword"},
+        headers={"Content-Type": "application/x-www-form-urlencoded"}
+    )
+    assert response.status_code == 200
+    return response.json()["access_token"]
+
+
+@pytest.fixture
+async def manager_token(async_client, manager_user):
+    """
+    Fixture to generate a token for a manager user.
+    """
+    response = await async_client.post(
+        "/login/",
+        data={"username": manager_user.email, "password": "securepassword"},
+        headers={"Content-Type": "application/x-www-form-urlencoded"}
+    )
+    assert response.status_code == 200
+    return response.json()["access_token"]
+
 @pytest.fixture(scope="function")
 async def user(db_session):
     user_data = {
@@ -187,29 +228,31 @@ async def admin_user(db_session: AsyncSession):
         email="admin@example.com",
         first_name="John",
         last_name="Doe",
-        hashed_password="securepassword",
+        hashed_password=hash_password("securepassword"),
         role=UserRole.ADMIN,
         is_locked=False,
+        email_verified=True,  # Ensure email is verified
     )
     db_session.add(user)
     await db_session.commit()
     return user
+
 
 @pytest.fixture
 async def manager_user(db_session: AsyncSession):
     user = User(
         nickname="manager_john",
+        email="manager_user@example.com",
         first_name="John",
         last_name="Doe",
-        email="manager_user@example.com",
-        hashed_password="securepassword",
+        hashed_password=hash_password("securepassword"),
         role=UserRole.MANAGER,
         is_locked=False,
+        email_verified=True,  # Ensure email is verified
     )
     db_session.add(user)
     await db_session.commit()
     return user
-
 
 # Fixtures for common test data
 @pytest.fixture

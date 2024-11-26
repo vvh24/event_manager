@@ -121,8 +121,10 @@ class UserService:
         user = await cls.get_by_email(session, email)
         if user:
             if user.email_verified is False:
+                logger.warning(f"Login failed for {email}: Email not verified.")
                 return None
             if user.is_locked:
+                logger.warning(f"Login failed for {email}: Account is locked.")
                 return None
             if verify_password(password, user.hashed_password):
                 user.failed_login_attempts = 0
@@ -134,8 +136,10 @@ class UserService:
                 user.failed_login_attempts += 1
                 if user.failed_login_attempts >= settings.max_login_attempts:
                     user.is_locked = True
+                    logger.warning(f"User {email} locked due to excessive failed login attempts.")
                 session.add(user)
                 await session.commit()
+        logger.warning(f"Login failed for {email}: Incorrect credentials.")
         return None
 
     @classmethod
