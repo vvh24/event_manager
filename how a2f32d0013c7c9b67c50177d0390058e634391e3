@@ -1,0 +1,837 @@
+[33mcommit 76b67efb75e0fb6374c286d030908ab1eb4128ab[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: vvh24 <valeriahcrespo@hotmail.com>
+Date:   Tue Nov 26 18:35:08 2024 -0500
+
+    update readme
+
+[33mcommit a2f32d0013c7c9b67c50177d0390058e634391e3[m
+Author: vvh24 <valeriahcrespo@hotmail.com>
+Date:   Tue Nov 26 18:21:03 2024 -0500
+
+    adding changes
+
+[33mcommit b15b77491e1568dd0ad2eb381e5c2f1b76535f55[m[33m ([m[1;31morigin/5-internal-server-error[m[33m, [m[1;31morigin/4-smtpserverdisconnected-errors[m[33m, [m[1;31morigin/3-profile-field-edge-cases[m[33m, [m[1;31morigin/2-password-validation[m[33m, [m[1;31morigin/1-nickname-in-the-response-does-not-match-the-one-in-the-user-input-for-the-api-register[m[33m, [m[1;32m4-smtpserverdisconnected-errors[m[33m, [m[1;32m3-profile-field-edge-cases[m[33m, [m[1;32m2-password-validation[m[33m, [m[1;32m1-nickname-in-the-response-does-not-match-the-one-in-the-user-input-for-the-api-register[m[33m)[m
+Author: woffee <iwoffee@gmail.com>
+Date:   Fri Nov 22 10:14:11 2024 -0500
+
+    auto run alembic
+
+[33mcommit 35ca79e80cfd58ca9756d49da8a6172e0080d2d5[m
+Author: woffee <iwoffee@gmail.com>
+Date:   Fri Nov 22 09:49:44 2024 -0500
+
+    update instructions
+
+[33mcommit fde39bab3151d786f39f7deea961105be1486759[m
+Author: woffee <iwoffee@gmail.com>
+Date:   Fri Nov 22 08:22:40 2024 -0500
+
+    update readme
+
+[33mcommit ba2a908adaa9a75dc27f1c90641a74a4673f4ac1[m
+Author: woffee <iwoffee@gmail.com>
+Date:   Thu Nov 21 22:52:19 2024 -0500
+
+    add admin account
+
+[33mcommit 70a1bf555ae5b7e688f47379d6eb870f72d1caeb[m
+Author: woffee <iwoffee@gmail.com>
+Date:   Thu Nov 21 19:55:02 2024 -0500
+
+    check smtp settings
+
+[33mcommit 204a6c0be2c71177d1359faa7767696e6e5fc721[m
+Author: woffee <iwoffee@gmail.com>
+Date:   Thu Nov 21 17:28:12 2024 -0500
+
+    add commands
+
+[33mcommit d7e444ebee1d85eab3fdf6b8499accdab37a527f[m
+Author: woffee <iwoffee@gmail.com>
+Date:   Wed Nov 20 10:05:58 2024 -0500
+
+    update readme
+
+[33mcommit f98467267f76c02f715c4b862fa7d54b3df80de5[m
+Author: woffee <iwoffee@gmail.com>
+Date:   Tue Nov 19 20:01:46 2024 -0500
+
+    update readme
+
+[33mcommit 940172b4ba37f12a0a24155f0628417ea77b1742[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Tue Apr 23 13:08:43 2024 -0400
+
+    Update readme.md
+
+[33mcommit 6a9df7d3ab1c498ba29ef75c82a74e31291127aa[m
+Merge: acfa71e ba4f07a
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Sat Apr 20 22:37:50 2024 -0400
+
+    Merge branch 'feature_user_story1_1'
+
+[33mcommit ba4f07a278f3a0fe13d9f70c7f240813d9a6d096[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Sat Apr 20 22:36:03 2024 -0400
+
+    lots of updates
+
+[33mcommit a605863a494c6d15e1879a586893161fa02a2bce[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Sat Apr 20 20:42:13 2024 -0400
+
+    update tests for access control testing
+
+[33mcommit 27270effb509461413bfd15e5f5c3b1d8568d350[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Sat Apr 20 19:54:09 2024 -0400
+
+    updating email mocks
+
+[33mcommit eeb0754e4b01f55bab3d139624b3ae5950bad4f0[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Sat Apr 20 19:53:47 2024 -0400
+
+    updating email mocks
+
+[33mcommit c3ad2387f4223876aa05574636548ddcff011302[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Sat Apr 20 17:39:42 2024 -0400
+
+    added nickname and the first lastname fields and nickname generation
+
+[33mcommit afcf7e2bd6bddc873a40518017f60962ab27e7a9[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Sat Apr 20 13:09:48 2024 -0400
+
+    fixed a bunch of issues
+
+[33mcommit d204aecd5ec3611c970e620233d7e8d74b9cee56[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Fri Apr 19 05:05:04 2024 -0400
+
+    added rbac
+
+[33mcommit ef968440437f4dcae0a81393382d7d23d29b88be[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Fri Apr 19 03:51:44 2024 -0400
+
+    email verification
+
+[33mcommit c67e85042d31f0c8142398869497ce1f002bf0a2[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Fri Apr 19 00:13:52 2024 -0400
+
+    finished refactoring - be careful with the pydantic schemas
+
+[33mcommit c573e2dea06430bc7f6b34276e4bd74bdbc3fb18[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Thu Apr 18 23:26:05 2024 -0400
+
+    forgot
+
+[33mcommit 567e48229ba467a504872c94bb42843a1d89eda1[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Thu Apr 18 23:24:57 2024 -0400
+
+    wip to fix some error and refctor db
+
+[33mcommit 339ae5bff56523e914066a7c3765fd3e7f06a0bb[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Thu Apr 18 20:51:22 2024 -0400
+
+    added linkedin and github
+
+[33mcommit e6d4b0f223128b0ca50ddfc145c08530fef92559[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Thu Apr 18 20:00:29 2024 -0400
+
+    refactored to allow turning sqlalchmy debug on or off in settings
+
+[33mcommit acfa71e6891f9712611b71ab2b9453bc3426ed6d[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Thu Apr 18 15:16:10 2024 -0400
+
+    added invalid email test
+
+[33mcommit 00c4ee2876aa70a5c80f24826f91eba3f5120391[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Thu Apr 18 15:13:19 2024 -0400
+
+    moved fixtures from my schema tests to conftest
+
+[33mcommit 5fc56bb0841a6b55cc34b12674ac7c3871e3046e[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Thu Apr 18 12:52:49 2024 -0400
+
+    added github, linkedin, profile pic and tests
+
+[33mcommit b45f745b5dd9d5f7c7eafe5abc0aad138cb86fc4[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Thu Apr 18 12:52:12 2024 -0400
+
+    updated conftest comments
+
+[33mcommit 8362364b63dafc49abf6f72db96366c9397e589f[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Thu Apr 18 12:00:25 2024 -0400
+
+    agile docs
+
+[33mcommit 8a2e6a36a8d561d41110e5d9fb832989edda2801[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Wed Apr 17 00:14:25 2024 -0400
+
+    updates
+
+[33mcommit 06422f0ba678dbf50ecf6a5067f7d28aa4b55498[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Tue Apr 16 23:56:09 2024 -0400
+
+    some updates and link gen tests
+
+[33mcommit 3f958deb38e6e2b821f1a181d4f5b8cc8515dff9[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Tue Apr 16 19:55:09 2024 -0400
+
+    update conftest.py and added tests
+
+[33mcommit 5608f611d367b2a7959bba9e7a8c458508fd3320[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Tue Apr 16 19:16:25 2024 -0400
+
+    updated to have authenticated, editor, and pro boolean
+
+[33mcommit 2c3382aac1f93d122180d4a0d67ab31466b342f8[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Sat Apr 13 20:37:15 2024 -0400
+
+    updated readme
+
+[33mcommit 63e23c20e9567fc10aa42bc18c4635a57e34ed02[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Sat Apr 13 19:17:01 2024 -0400
+
+    updated readme
+
+[33mcommit 67e2348cbbbdd054afcf2b1cc6bdee5242c99760[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Sat Apr 13 19:16:24 2024 -0400
+
+    added the .env file
+
+[33mcommit cab61f32e6707e6baae2842ee68d8d3cf71a9874[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Sat Apr 13 18:58:23 2024 -0400
+
+    updated readme
+
+[33mcommit 4bbfe70cf7e13a7c01edf246382f38ede8881fa4[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Sat Apr 13 18:23:58 2024 -0400
+
+    updated readme and ignored coverage
+
+[33mcommit 56c202189a093332cc6c1f1a72dc5f79b9568738[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Fri Apr 12 22:19:50 2024 -0400
+
+    added functions for keys for discord and openai
+
+[33mcommit eb99269bef0ac2b35bfe4e2dcf82e5992cbd5526[m
+Merge: 00ce7c1 24e8d7d
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Fri Apr 12 17:51:14 2024 -0400
+
+    Merge pull request #2 from WISClub/1-make-all-the-example-data-for-login-and-registration-consistent-to-make-it-easy-to-test-login-and-reg
+    
+    1 make all the example data for login and registration consistent to make it easy to test login and reg
+
+[33mcommit 24e8d7d0e69ed87ab3ddbb36961df8439b376b51[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Fri Apr 12 17:50:20 2024 -0400
+
+    fixed error in conf that caused a problem with starting nginx
+
+[33mcommit 00ce7c1f2aa4d41d19aaadcf0f471948443a8229[m
+Merge: 10f6cd4 7deec26
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Fri Apr 12 15:55:36 2024 -0400
+
+    Merge pull request #1 from WISClub/1-openapi-docs-page-login-and-register-example-data-mismatch
+    
+    updated tests and schemas closes #1
+
+[33mcommit 7deec26970d65ac02a0b9251c795a0e1056ae3ad[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Fri Apr 12 15:54:35 2024 -0400
+
+    updated tests and schemas closes #1
+
+[33mcommit 10f6cd44977e5901fbcf3d19e6fc31a3fc8895a6[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Thu Apr 11 21:41:57 2024 -0400
+
+    updated readme
+
+[33mcommit 81e6b6c6b757e7622cb165fa086f2165869f2385[m
+Merge: 761d6ef 3ee16ad
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Thu Apr 11 20:48:14 2024 -0400
+
+    Merge branch 'kaw393939:main' into main
+
+[33mcommit 3ee16adaab02cbb199d2f1d33db1623f06240c84[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Thu Apr 11 20:45:35 2024 -0400
+
+    removed another qr_codes reference
+
+[33mcommit 761d6ef89a6695cc5d1cbe3cab7f55e32cb54247[m
+Merge: 184c9f9 e4d0b1e
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Thu Apr 11 20:20:24 2024 -0400
+
+    Merge branch 'kaw393939:main' into main
+
+[33mcommit e4d0b1e558cc6f27704c26d2353aa88d2e14d604[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Thu Apr 11 20:12:19 2024 -0400
+
+    Update nginx.conf to remove downloads
+
+[33mcommit 184c9f9bd31fe2812b04570b07fe3d6e3a07e610[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Thu Apr 11 19:34:42 2024 -0400
+
+    Delete .github/workflows/tests_build_scan_no_push.yml
+
+[33mcommit 726a3b936dbb567bec054a8d30bbe2f241a92b5b[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Thu Apr 11 19:27:36 2024 -0400
+
+    Update production.yml
+
+[33mcommit f811c780e2f7dc35d0c52611daea08abada9903e[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Thu Apr 11 18:37:09 2024 -0400
+
+    some more fixing
+
+[33mcommit 5862f46ae1c78fe29e488b615cde770d41fbd018[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Thu Apr 11 18:30:51 2024 -0400
+
+    some more fixing
+
+[33mcommit 27aa2f69d4ecfebace6781a6b3368530824cef73[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Thu Apr 11 18:26:31 2024 -0400
+
+    added back the db service
+
+[33mcommit 1f2e1a8847036d8ea2b6eba28b4bdb864d82dfa7[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Thu Apr 11 18:23:24 2024 -0400
+
+    added back the db service
+
+[33mcommit 95810d75c80e6aa84c776930b1319949c7dc68c3[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Thu Apr 11 18:18:33 2024 -0400
+
+    removed qr config
+
+[33mcommit 98fb7a3a73337135cb7677fe89b05231bf87ebf0[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Thu Apr 11 18:16:37 2024 -0400
+
+    updated to push the image
+
+[33mcommit dfae37f2010db09e24e87f5fd8d5464b34f65960[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Thu Apr 11 18:16:13 2024 -0400
+
+    updated to push the image
+
+[33mcommit 08701eb79895ae23c7cacad67851fc71f5e19b7f[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Thu Apr 11 18:15:07 2024 -0400
+
+    updated to push the image
+
+[33mcommit fbeaade18819a9b8ae32d29c05ca9a91d4370368[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Thu Apr 11 18:02:03 2024 -0400
+
+    updated to push the image
+
+[33mcommit db1a430347d1b78824bb6c1f9b6a8fd26a27b181[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Thu Apr 11 17:56:31 2024 -0400
+
+    updated to push the image
+
+[33mcommit 50f68a9e37c092922a7ea4cb3291e81585ba1acb[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Thu Apr 11 17:48:59 2024 -0400
+
+    updated to push the image
+
+[33mcommit f0620ce456a1b6c43caccb84cdfb8d539811295f[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Thu Apr 11 17:43:35 2024 -0400
+
+    updated to push the image
+
+[33mcommit c2b34b193878a385650481257c74f2ccd5749d6f[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Thu Apr 11 17:40:26 2024 -0400
+
+    updated to push the image
+
+[33mcommit 2616757195fc60b9c7b3049865bbd69320dffd18[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Thu Apr 11 17:32:25 2024 -0400
+
+    removed qr_codes
+
+[33mcommit e1a7460e1c85baf6d032a7c75b4833dffaab1a65[m
+Merge: 1782df4 825f0f1
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Thu Apr 11 15:40:13 2024 -0400
+
+    Merge branch 'main' into login_reg
+
+[33mcommit 1782df4cd63dcb3a89d8a48ff4870f38ca322156[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Wed Apr 10 04:39:59 2024 -0400
+
+    fixed the return values
+
+[33mcommit aae39271770d2c79ff9dbba6b87d2170242a5317[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Wed Apr 10 02:07:36 2024 -0400
+
+    updated with service improvements
+
+[33mcommit 9b4c45b7a9768c7e92eb15f035b1742c08acf141[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Wed Apr 10 01:39:05 2024 -0400
+
+    added some new function for managing users like reset password, lock unlock, and verify email
+
+[33mcommit b07011b317392844be62f34a20d947f5cfa564a3[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Tue Apr 9 23:43:10 2024 -0400
+
+    updated schema docs to make them nice
+
+[33mcommit 1776a6cfd84683cfffcdfed50b0e9d8e6a958f0a[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Tue Apr 9 23:13:27 2024 -0400
+
+    updated service and tests for max login it really works now
+
+[33mcommit 7df6f71764043c394decbb49c24b5f1a40ab3038[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Tue Apr 9 22:10:08 2024 -0400
+
+    improved model with role
+
+[33mcommit ab484d00cfdc84b280746be160175e138491be36[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Tue Apr 9 21:40:04 2024 -0400
+
+    improved schema testing
+
+[33mcommit 4762215b316871e22c036722c9c36ba021873e0d[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Tue Apr 9 21:32:18 2024 -0400
+
+    schema updates and optimizations
+
+[33mcommit 4dec337669ce3fbf509392bd8806634dfa3826bf[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Tue Apr 9 21:27:21 2024 -0400
+
+    some minor fixes on the model and updating a depricated method
+
+[33mcommit ea0faf9a5909b9ec9f423d92ea5792b68362237e[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Tue Apr 9 21:17:24 2024 -0400
+
+    removed bad code
+
+[33mcommit 8dced0d6ad58b2494f5457c2a0a6d0a9601dc456[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Tue Apr 9 21:05:49 2024 -0400
+
+    update and added tests
+
+[33mcommit bb1be473e9f60ec50b6e43dfadd2df009b2068f5[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Tue Apr 9 16:44:50 2024 -0400
+
+    updated schema examples
+
+[33mcommit c0bd4c363d38a74d9a72dee994e95a68dfb05a39[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Tue Apr 9 14:32:42 2024 -0400
+
+    added login service and reg
+
+[33mcommit 25dfe841f27e8928e5998b788f8373d5d85df7f2[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Tue Apr 9 00:24:05 2024 -0400
+
+    fixed docs
+
+[33mcommit 70cb6b561aaca172bd246b543dcd1ee2867d2c29[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Tue Apr 9 00:10:43 2024 -0400
+
+    fixed github action
+
+[33mcommit a60f62ae013c24b9a4b543ac9048f6669dafab7a[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Mon Apr 8 23:55:10 2024 -0400
+
+    fixed test
+
+[33mcommit 808fe904afc0c055c63077ee558d21cf7c625342[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Mon Apr 8 23:41:07 2024 -0400
+
+    fixes to user list
+
+[33mcommit 51acd0b9bc991d1fad716d6297e1dd2c8ff45ddb[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Mon Apr 8 16:26:01 2024 -0400
+
+    updated readme
+
+[33mcommit 2c94801786fee308079b77ab5d77d848141e66ff[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Mon Apr 8 14:39:57 2024 -0400
+
+    updated readme
+
+[33mcommit a82a068ee7ef196806169f7f3e124f5940a9d1b0[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Mon Apr 8 02:32:33 2024 -0400
+
+    new fixes
+
+[33mcommit 5d2ea621af163f23be0ec6655c21c65b9f7202ea[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Mon Apr 8 01:24:18 2024 -0400
+
+    updated to do users
+
+[33mcommit dc85f996b59d612c1fa9a695a3de3825b39dfb7a[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Sun Apr 7 23:44:42 2024 -0400
+
+    removed everything but the user model
+
+[33mcommit 24d06d30c9998d6b32c637b78c0696cd302a5229[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Sun Apr 7 21:07:04 2024 -0400
+
+    Delete alembic/versions/af31c08d3782_initial_migration.py
+
+[33mcommit 7a4a04ea7d718390d3f2fec985e226ea8ee81034[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Sun Apr 7 20:42:09 2024 -0400
+
+    fixing migration
+
+[33mcommit 0681e9fea0d77aa9268e9022a4b319d0a90446e6[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Sun Apr 7 15:01:43 2024 -0400
+
+    another try
+
+[33mcommit 6ac95e75f23f492d9f1af9b704cee7b49a03b213[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Sun Apr 7 14:56:04 2024 -0400
+
+    removed env in github action because its not needed just set the default and figured out it was giving the non async
+
+[33mcommit acee69ff00cdb3315a649db6d314b34548436ceb[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Sun Apr 7 14:51:55 2024 -0400
+
+    removed cache
+
+[33mcommit c06ccb933e4b67e1419386d9dc0e133492c223a5[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Sun Apr 7 14:49:46 2024 -0400
+
+    fixed password
+
+[33mcommit cdf28b307b0a1bb6d622246788991facdf705846[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Sun Apr 7 14:22:31 2024 -0400
+
+    updated requirements
+
+[33mcommit 04c166d319907ec453bdd0726d496d301c10538f[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Sun Apr 7 08:00:59 2024 -0400
+
+    tests passing
+
+[33mcommit 9a2c0c08c07dd66f1605557124cdb624bed5aea0[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Sun Apr 7 05:29:14 2024 -0400
+
+    updated creating links
+
+[33mcommit d24a1468cff0814baca8fe8162f79ab7afa401a0[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Sun Apr 7 05:10:03 2024 -0400
+
+    wip on the way to getting things working it has the user create working and a lot of tests that need to be repeated for everything
+
+[33mcommit dae149dc7b7af1eeed0b2773b58a6bd0724462ed[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Sat Apr 6 00:02:07 2024 -0400
+
+    added attended
+
+[33mcommit b6b26ad744f6566e2133e2ce1b70b935436cb8fb[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Sat Apr 6 00:01:56 2024 -0400
+
+    added attended
+
+[33mcommit a867903b3ea7ee44c3f9ee9ec5600110fb1d5513[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Fri Apr 5 01:50:35 2024 -0400
+
+    fixing async for events need to update the app and events routes
+
+[33mcommit 49978859e9efd62093d317658f43672b801aa72a[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Fri Apr 5 00:09:47 2024 -0400
+
+    wip tests pass but only individually
+
+[33mcommit 3856e4e3d6f486e9c4ee972727c57b3170e6c654[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Thu Apr 4 19:27:27 2024 -0400
+
+    make qr_codes directory
+
+[33mcommit ff081abef0e08918121572b1ba452b29ef65efde[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Thu Apr 4 19:24:40 2024 -0400
+
+    postgres database testing fixes
+
+[33mcommit ea5dd4bf39f9c877e89c59b3b55bc48128ed4d7d[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Thu Apr 4 17:27:37 2024 -0400
+
+    updated to async
+
+[33mcommit a4384a1adc3fe70eafe6bb7200d787fe7a0eaa22[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Thu Apr 4 03:36:06 2024 -0400
+
+     fixes
+
+[33mcommit a9795e666265fd4679a56e5c4dbc2b77c60f4cbe[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Thu Apr 4 03:16:30 2024 -0400
+
+     fixes
+
+[33mcommit 7731715129198bbf30eee68974b5c2289c7cdc12[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Thu Apr 4 03:12:45 2024 -0400
+
+     fixes
+
+[33mcommit 73afc44310ce02880dc69844cfb81d1e8e09ce35[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Thu Apr 4 02:43:39 2024 -0400
+
+    a bunch of refactoring
+
+[33mcommit 3a92c513ca19c5dde9a576d12e5ee9b6d9cb3318[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Thu Apr 4 01:59:50 2024 -0400
+
+    wip
+
+[33mcommit d68075a5d45ed8f9ca81c715fd9d4da8f70bb0c4[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Wed Apr 3 00:25:49 2024 -0400
+
+    upgraded to use postgres
+
+[33mcommit cdca104c32d5d62a0fc0582f6adfc718a8b32559[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Tue Apr 2 20:39:04 2024 -0400
+
+    stuff
+
+[33mcommit 825f0f1986563242d2412c1742cff75f4d9103a3[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Tue Apr 2 17:05:53 2024 -0400
+
+    Update production.yml
+
+[33mcommit c9e7fab4743916c9c7f08d0177b34852a76cca1a[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Tue Apr 2 15:57:34 2024 -0400
+
+    updated
+
+[33mcommit bdeb3b039ea18c50d3455fc968d99690b2b09b92[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Tue Apr 2 15:56:51 2024 -0400
+
+    updated readme
+
+[33mcommit 4755af46f1ec71d07b6a4fbe6f5010a5c90f5ee6[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Tue Apr 2 15:56:14 2024 -0400
+
+    updated files
+
+[33mcommit 6597919dbb74998f8291fe64fffe4edd7ba8f818[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Tue Apr 2 13:40:47 2024 -0400
+
+    added workflow for all
+
+[33mcommit 827ac1d313669215257b8768313cc984af109958[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Tue Apr 2 13:32:18 2024 -0400
+
+    updated refresh token and tests
+
+[33mcommit f54a9347472901e67a19307134106d14e3b690e0[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Tue Apr 2 03:15:18 2024 -0400
+
+    fixed docker
+
+[33mcommit d830b4f61af80586bdcca49266975db4244118be[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Tue Apr 2 03:13:24 2024 -0400
+
+    first commit for event managmement
+
+[33mcommit 0d71105f3f2c0a7afdec2f18962e6b684e11f699[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Mon Apr 1 23:29:14 2024 -0400
+
+    updated to use schema for pydantic schema
+
+[33mcommit e8967d6932122e3d1f7a97e9886d9b336b180315[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Mon Apr 1 19:17:32 2024 -0400
+
+    security fix
+
+[33mcommit 3e1a17d8dc20aad95c1bed33ca5810dbcac383fe[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Mon Apr 1 19:14:15 2024 -0400
+
+    security fix
+
+[33mcommit 8b2fe0cf9191c2848eb03ce67fb26d5f0ad760b5[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Mon Apr 1 19:09:42 2024 -0400
+
+    security fix
+
+[33mcommit 332212953b4c2479d71ff19a96baf6d58283b251[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Mon Apr 1 17:55:43 2024 -0400
+
+    fixes
+
+[33mcommit f510d1bf0cd9c5076343b9167658998f2aa379ad[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Mon Apr 1 17:24:56 2024 -0400
+
+    updated app
+
+[33mcommit 60a7d9dda29446e1bbc601ff3579b7187da631bf[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Mon Apr 1 17:24:17 2024 -0400
+
+    updated app
+
+[33mcommit 22b068e171ef7984253eaf05ef18ddc0962f9d53[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Mon Apr 1 17:21:54 2024 -0400
+
+    updated app
+
+[33mcommit 14070e9ce741753636313acd7a92a95d1136aedc[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Mon Apr 1 17:18:36 2024 -0400
+
+    updated app
+
+[33mcommit b5fbfd72d44c023c4fb188524137d4dd37fd7bea[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Sat Mar 30 14:28:30 2024 -0400
+
+    improvements
+
+[33mcommit 7a34dd9569f0eb4c8728f150c2959f65ee89d2d4[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Sat Mar 30 13:15:18 2024 -0400
+
+    fixes
+
+[33mcommit 5e890423d13d736eaedbd23264a87cb4bd9bc691[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Sat Mar 30 13:14:31 2024 -0400
+
+    fixes
+
+[33mcommit bbf3fc948f2672a74eaea16c9db76e99df8b7a71[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Sat Mar 30 13:12:07 2024 -0400
+
+    fixes
+
+[33mcommit 89d83872149d69b784244a21727d784c10951a38[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Sat Mar 30 13:07:28 2024 -0400
+
+    fixes
+
+[33mcommit 853442496e7f6ead1fca539d96bf06e055052b3f[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Sat Mar 30 13:05:30 2024 -0400
+
+    fixes
+
+[33mcommit 64844199b65b5895738612283fb89b3858120196[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Sat Mar 30 13:02:59 2024 -0400
+
+    fixes
+
+[33mcommit 19f9ad6df473c1e9f3e76bf191b9bd851f442ddc[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Sat Mar 30 12:59:04 2024 -0400
+
+    fixes
+
+[33mcommit 29a015c6846a4603f9a837f16b17733e921e5cfd[m
+Author: kaw393939 <kwilliam@njit.edu>
+Date:   Sat Mar 30 12:49:11 2024 -0400
+
+    first commit

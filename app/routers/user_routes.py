@@ -1,4 +1,3 @@
-"""
 This Python file is part of a FastAPI application, demonstrating user management functionalities including creating, reading,
 updating, and deleting (CRUD) user information. It uses OAuth2 with Password Flow for security, ensuring that only authenticated
 users can perform certain operations. Additionally, the file showcases the integration of FastAPI with SQLAlchemy for asynchronous
