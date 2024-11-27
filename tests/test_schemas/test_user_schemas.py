@@ -107,3 +107,4 @@ def test_login_request_valid():
     login = LoginRequest(**login_request_data)
     assert login.email == login_request_data["email"]
     assert login.password == login_request_data["password"]
+#passed test files

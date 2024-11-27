@@ -52,3 +52,4 @@ class EmailService:
             "verification_url": verification_url,
             "email": user.email
         }, 'email_verification')
+#passed test files
