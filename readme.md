@@ -32,4 +32,3 @@ One of the main challenges was debugging the Internal Server Error caused by mis
 Another challenge was handling SMTP errors; I learned the value of fail-safes and logging to provide better diagnostics for issues related to third-party services.
 
 In conclusion, this assignment enhanced my technical skills in backend development, debugging, and deployment. 
-

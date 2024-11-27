@@ -43,7 +43,6 @@ class Settings(BaseSettings):
     smtp_password: str = Field(default=os.getenv("SMTP_PASSWORD", "your-mailtrap-password"), description="Password for SMTP server")
 
 
-
     class Config:
         # If your .env file is not in the root directory, adjust the path accordingly.
         env_file = ".env"
@@ -51,4 +50,3 @@ class Settings(BaseSettings):
 
 # Instantiate settings to be imported in your application
 settings = Settings()
-#changes made in this file
