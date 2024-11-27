@@ -2,6 +2,7 @@ from builtins import bool, int, str
 from pathlib import Path
 from pydantic import  Field, AnyUrl, DirectoryPath
 from pydantic_settings import BaseSettings
+import os  # Add this import to read environment variables
 
 class Settings(BaseSettings):
     max_login_attempts: int = Field(default=3, description="Background color of QR codes")
@@ -36,10 +37,11 @@ class Settings(BaseSettings):
     openai_api_key: str = Field(default='NONE', description="Open AI Api Key")
     send_real_mail: bool = Field(default=False, description="use mock")
     # Email settings for Mailtrap
-    smtp_server: str = Field(default='smtp.mailtrap.io', description="SMTP server for sending emails")
-    smtp_port: int = Field(default=2525, description="SMTP port for sending emails")
-    smtp_username: str = Field(default='your-mailtrap-username', description="Username for SMTP server")
-    smtp_password: str = Field(default='your-mailtrap-password', description="Password for SMTP server")
+    smtp_server: str = Field(default=os.getenv("SMTP_SERVER", "sandbox.smtp.mailtrap.io"), description="SMTP server for sending emails")
+    smtp_port: int = Field(default=int(os.getenv("SMTP_PORT", 587)), description="SMTP port for sending emails")
+    smtp_username: str = Field(default=os.getenv("SMTP_USERNAME", "your-mailtrap-username"), description="Username for SMTP server")
+    smtp_password: str = Field(default=os.getenv("SMTP_PASSWORD", "your-mailtrap-password"), description="Password for SMTP server")
+
 
 
     class Config:
@@ -49,3 +51,4 @@ class Settings(BaseSettings):
 
 # Instantiate settings to be imported in your application
 settings = Settings()
+#changes made in this file

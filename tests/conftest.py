@@ -181,34 +181,24 @@ async def users_with_same_role_50_users(db_session):
     return users
 
 @pytest.fixture
-async def admin_user(db_session: AsyncSession):
-    user = User(
-        nickname="admin_user",
-        email="admin@example.com",
-        first_name="John",
-        last_name="Doe",
-        hashed_password="securepassword",
-        role=UserRole.ADMIN,
-        is_locked=False,
+async def admin_token(async_client, admin_user):
+    response = await async_client.post(
+        "/login/",
+        data={"username": admin_user.email, "password": "securepassword"},
+        headers={"Content-Type": "application/x-www-form-urlencoded"},
     )
-    db_session.add(user)
-    await db_session.commit()
-    return user
+    assert response.status_code == 200, f"Token generation failed: {response.json()}"
+    return response.json()["access_token"]
 
 @pytest.fixture
-async def manager_user(db_session: AsyncSession):
-    user = User(
-        nickname="manager_john",
-        first_name="John",
-        last_name="Doe",
-        email="manager_user@example.com",
-        hashed_password="securepassword",
-        role=UserRole.MANAGER,
-        is_locked=False,
+async def manager_token(async_client, manager_user):
+    response = await async_client.post(
+        "/login/",
+        data={"username": manager_user.email, "password": "securepassword"},
+        headers={"Content-Type": "application/x-www-form-urlencoded"},
     )
-    db_session.add(user)
-    await db_session.commit()
-    return user
+    assert response.status_code == 200, f"Token generation failed: {response.json()}"
+    return response.json()["access_token"]
 
 
 # Fixtures for common test data
@@ -261,3 +251,4 @@ def user_response_data():
 @pytest.fixture
 def login_request_data():
     return {"username": "john_doe_123", "password": "SecurePassword123!"}
+    #changes made in this file 
